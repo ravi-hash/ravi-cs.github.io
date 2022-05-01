@@ -1,8 +1,4 @@
-/* Credit and Thanks:
-Matrix - Particles.js;
-SliderJS - Ettrics;
-Fonts - Google Fonts
-*/
+
 
 window.onload = function () {
   Particles.init({
@@ -135,8 +131,4 @@ class NavigationPage {
 
 new NavigationPage();
 
-/* Credit and Thanks:
-Matrix - Particles.js;
-SliderJS - Ettrics;
-Fonts - Google Fonts
-*/
+ 
