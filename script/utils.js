@@ -26,7 +26,7 @@ function openNav() {
   }
   var timeout;
   function myFunction(val) {
-    // Get the snackbar DIV
+   
     var x = document.getElementById("snackbar");
     // Add the "show" class to DIV
     x.className = "show";
@@ -35,6 +35,5 @@ function openNav() {
     if(timeout){
         clearTimeout(timeout);
     }
-    // After 3 seconds, remove the show class from DIV
-    timeout=setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+      timeout=setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
   }
