@@ -1,4 +1,4 @@
-/* The actual timeline (the vertical ruler) */
+
 .timeline {
   position: relative;
   margin: 0 auto;
@@ -8,7 +8,6 @@
   background-size: cover;
 }
 
-/* The actual timeline (the vertical ruler) */
 .timeline::before {
   content: '';
   position: absolute;
@@ -28,7 +27,7 @@
   width: 50%;
 }
 
-/* The circles on the timeline */
+
 .container::after {
   content: '';
   position: absolute;
@@ -46,17 +45,17 @@
   background:blue;
 }
 
-/* Place the container to the left */
+
 .left {
   left: -80px;
 }
 
-/* Place the container to the right */
+
 .right {
   left: 50%;
 }
 
-/* Add arrows to the left container (pointing right) */
+
 .left::before {
   content: " ";
   height: 0;
@@ -70,7 +69,6 @@
   margin-top:40px ;
 }
 
-/* Add arrows to the right container (pointing left) */
 .right::before {
   content: " ";
   height: 0;
@@ -84,12 +82,12 @@
   margin-top:40px ;
 }
 
-/* Fix the circle for containers on the right side */
+
 .right::after {
   left: -16px;
 }
 
-/* The actual content */
+
 .content {
   padding: 20px 30px;
   background-color: rgb(219, 58, 93);
